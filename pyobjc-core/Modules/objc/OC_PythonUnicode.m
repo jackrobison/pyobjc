@@ -43,6 +43,10 @@
     return YES;
 }
 
+-(BOOL)supportsSecureCoding {
+    return YES;
+}
+
 -(oneway void)release
 {
     /* There is small race condition when an object is almost deallocated

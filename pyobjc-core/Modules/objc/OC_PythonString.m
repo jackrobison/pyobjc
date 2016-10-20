@@ -45,6 +45,10 @@
     return YES;
 }
 
+-(BOOL)supportsSecureCoding {
+    return YES;
+}
+
 -(oneway void)release
 {
     /* See comment in OC_PythonUnicode */
